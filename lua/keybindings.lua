@@ -5,6 +5,10 @@ vim.g.maplocalleader = " "
 local map = vim.api.nvim_set_keymap
 local opt = {noremap = true, silent = true }
 
+-- 复制粘贴
+map("v", "<leader>c", "\"+y", opt)
+map("n", "<leader>v", "\"+gp", opt)
+
 map("n", "<C-k>", "9k", opt)
 map("n", "<C-j>", "9j", opt)
 
@@ -31,8 +35,8 @@ map("n", "<A-l>", "<C-w>l", opt)
 map('n', '<A-m>', ':NvimTreeToggle<CR>', opt)
 map('n', 'syu', ':PackerSync<CR>', opt)
 
-map("n", "<C-h>", ":BufferLineCyclePrev<CR>", opt)
-map("n", "<C-l>", ":BufferLineCycleNext<CR>", opt)
+map("n", "<leader>h", ":BufferLineCyclePrev<CR>", opt)
+map("n", "<leader>l", ":BufferLineCycleNext<CR>", opt)
 
 map("n", "<leader>i", "gg=G", opt)
 
