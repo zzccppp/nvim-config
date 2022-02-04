@@ -13,6 +13,8 @@ lua require('plugin-config/bufferline')
 
 lua require('plugin-config/nvim-treesitter')
 
+lua require('plugin-config/lualine')
+
 lua require('lsp/setup')
 
 lua require('lsp/nvim-cmp')
