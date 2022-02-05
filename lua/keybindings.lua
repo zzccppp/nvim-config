@@ -37,8 +37,19 @@ map('n', 'syu', ':PackerSync<CR>', opt)
 
 map("n", "<leader>h", ":BufferLineCyclePrev<CR>", opt)
 map("n", "<leader>l", ":BufferLineCycleNext<CR>", opt)
+map("n", "cr", ":BufferLineCloseRight<CR>", opt)
+map("n", "cl", ":BufferLineCloseLeft<CR>", opt)
+map("n", "cp", ":BufferLinePickClose<CR>", opt)
+
 
 map("n", "<leader>i", "gg=G", opt)
+
+-- telescope search command
+map("n", "ff", ":Telescope find_files<CR>", opt)
+map("n", "fg", ":Telescope live_grep<CR>", opt)
+map("n", "fb", ":Telescope buffers<CR>", opt)
+map("n", "fh", ":Telescope help_tags<CR>", opt)
+
 
 local pluginKeys = {}
 
