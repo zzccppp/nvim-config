@@ -20,9 +20,9 @@ cmp.setup {
   },
   -- 来源
   sources = cmp.config.sources({
-    { name = 'nvim_lsp' },
+  { name = 'nvim_lsp' },
     -- For vsnip users.
-    { name = 'vsnip' },
+  { name = 'vsnip' },
     -- For luasnip users.
     -- { name = 'luasnip' },
     --For ultisnips users.
@@ -30,7 +30,7 @@ cmp.setup {
     -- -- For snippy users.
     -- { name = 'snippy' },
   }, { { name = 'buffer' },
-       { name = 'path' }
+    { name = 'path' }
     }),
 
   -- 快捷键
@@ -52,15 +52,15 @@ cmp.setup {
 -- Use buffer source for `/`.
 cmp.setup.cmdline('/', {
   sources = {
-    { name = 'buffer' }
+  { name = 'buffer' }
   }
 })
 
 -- Use cmdline & path source for ':'.
 cmp.setup.cmdline(':', {
   sources = cmp.config.sources({
-    { name = 'path' }
+  { name = 'path' }
   }, {
-      { name = 'cmdline' }
+    { name = 'cmdline' }
     })
 })
