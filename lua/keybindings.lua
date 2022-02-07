@@ -1,9 +1,7 @@
 -- 设置leader Key
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
-
-local map = vim.api.nvim_set_keymap
-local opt = {noremap = true, silent = true }
+local map = vim.api.nvim_set_keymap local opt = {noremap = true, silent = true }
 
 -- 复制粘贴
 map("v", "<leader>c", "\"+y", opt)
@@ -53,6 +51,9 @@ map("n", "fh", ":Telescope help_tags<CR>", opt)
 -- terminal
 map("t", "<ESC>" , "<C-\\><C-n>" , opt)
 
+-- comment
+map("n", "\\" , ":CommentToggle<CR>", opt)
+map("v", "\\" , ":CommentToggle<CR>", opt)
 
 local pluginKeys = {}
 

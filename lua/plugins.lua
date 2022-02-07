@@ -33,5 +33,7 @@ return require('packer').startup(function()
     'nvim-telescope/telescope.nvim',
     requires = { {'nvim-lua/plenary.nvim'} }
   }
+  use "terrortylor/nvim-comment"
+
 end)
 
