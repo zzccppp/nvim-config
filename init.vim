@@ -21,3 +21,4 @@ lua require('lsp/nvim-cmp')
 
 lua require('plugin-config/nvim-comment')
 
+lua require('plugin-config/lsp-status')

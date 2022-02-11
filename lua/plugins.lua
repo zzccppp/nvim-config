@@ -34,6 +34,7 @@ return require('packer').startup(function()
     requires = { {'nvim-lua/plenary.nvim'} }
   }
   use "terrortylor/nvim-comment"
+  use "nvim-lua/lsp-status.nvim"
 
 end)
 
