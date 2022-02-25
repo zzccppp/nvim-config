@@ -3,7 +3,7 @@ require'nvim-tree'.setup {
   auto_close = false,
   git = {
     enable = true,
-    ignore = true,
+    ignore = false,
     timeout = 500,
   }
 }
