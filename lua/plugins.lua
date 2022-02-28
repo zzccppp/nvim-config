@@ -36,5 +36,6 @@ return require('packer').startup(function()
   use "terrortylor/nvim-comment"
   use "nvim-lua/lsp-status.nvim"
   use "windwp/nvim-autopairs"
+  use 'simrat39/rust-tools.nvim'
 end)
 

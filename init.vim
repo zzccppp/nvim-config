@@ -24,3 +24,4 @@ lua require('plugin-config/nvim-comment')
 lua require('plugin-config/lsp-status')
 
 lua require('plugin-config/nvim-autopairs')
+
