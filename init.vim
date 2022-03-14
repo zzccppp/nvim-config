@@ -5,7 +5,7 @@ lua require('keybindings')
 lua require('plugins')
 
 set background=dark
-colorscheme gruvbox
+colorscheme kanagawa
 
 lua require('plugin-config/nvim-tree')
 
