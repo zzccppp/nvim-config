@@ -55,6 +55,9 @@ map("t", "<ESC>" , "<C-\\><C-n>" , opt)
 map("n", "\\" , ":CommentToggle<CR>", opt)
 map("v", "\\" , ":CommentToggle<CR>", opt)
 
+-- save
+map("n", "<leader>w", ":w<CR>", opt)
+
 local pluginKeys = {}
 
 -- lsp 回调函数快捷键设置
