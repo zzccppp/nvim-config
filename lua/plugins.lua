@@ -38,5 +38,7 @@ return require('packer').startup(function()
   use "nvim-lua/lsp-status.nvim"
   use "windwp/nvim-autopairs"
   use 'simrat39/rust-tools.nvim'
+  use("glepnir/dashboard-nvim")
+  use("ahmedkhalf/project.nvim")
 end)
 

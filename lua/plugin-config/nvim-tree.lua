@@ -5,5 +5,10 @@ require'nvim-tree'.setup {
     enable = true,
     ignore = false,
     timeout = 500,
-  }
+  },
+  update_cwd = true,
+  update_focused_file = {
+    enable = true,
+    update_cwd = true,
+  },
 }

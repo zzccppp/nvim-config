@@ -25,3 +25,5 @@ lua require('plugin-config/lsp-status')
 
 lua require('plugin-config/nvim-autopairs')
 
+lua require('plugin-config/project')
+lua require('plugin-config/dashboard')
