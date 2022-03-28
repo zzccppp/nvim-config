@@ -47,6 +47,7 @@ map("n", "ff", ":Telescope find_files<CR>", opt)
 map("n", "fg", ":Telescope live_grep<CR>", opt)
 map("n", "fb", ":Telescope buffers<CR>", opt)
 map("n", "fh", ":Telescope help_tags<CR>", opt)
+map("n", "ft", ":TodoTelescope <CR>", opt)
 
 -- terminal
 map("t", "<ESC>" , "<C-\\><C-n>" , opt)

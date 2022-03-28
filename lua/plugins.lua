@@ -47,6 +47,14 @@ return require('packer').startup(function()
   use("glepnir/dashboard-nvim")
   use("ahmedkhalf/project.nvim")
   use {'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
+  use {
+  "folke/todo-comments.nvim",
+  requires = "nvim-lua/plenary.nvim",
+  config = function()
+    require("todo-comments").setup {
+    }
+  end
+  }
 
   if packer_bootstrap then
     require('packer').sync()
