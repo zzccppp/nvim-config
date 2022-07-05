@@ -1,4 +1,5 @@
 vim.g.dashboard_default_executive = "telescope"
+
 vim.g.dashboard_custom_footer = { "https://github.com/nshen/learn-neovim-lua" }
 
 vim.g.dashboard_custom_section = {
@@ -20,6 +21,6 @@ vim.g.dashboard_custom_header = {
   [[ ██║ ╚████║███████╗╚██████╔╝ ╚████╔╝ ██║██║ ╚═╝ ██║]],
   [[ ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝]],
   [[                                                   ]],
-  [[                [ version : 0.6.1 ]                ]],
+  [[                [ version : 0.7.0 ]                ]],
 }
 
